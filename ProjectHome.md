@@ -106,8 +106,8 @@ For remote imaging, ddAuto opens dual TCP connections. One via Netcat/Cryptcat t
 <h2>Screenshots</h2>
 
 <h3>Welcome Window</h3>
-#1. Utility body area.<br />
-#2. Utility control area.<br />
+1- Utility body area.<br />
+2- Utility control area.<br />
 <img src='https://dl.dropboxusercontent.com/s/77bislzgxo2dq9l/1.jpg' />
 
 
