@@ -2,7 +2,7 @@
 
 ddAuto is an open-source front-end GUI cross-platform imaging tool written in Perl to automate dd utility process. The purpose of this tool is to provide the user with the power of the dd utility as well as providing the user with an intuitive interface. ddAuto provides the option for the user to image attached drives (e.g. HD, Flash Drive) locally or remotely via TCP protocol using netcat/cryptcat.
 Image integrity functionality is also provided by the tool. The user may choose to use MD5, SHA1, SHA2 or any other degist algorithm for hash verification. Most importantly, ddAuto allows the user to view the imaging completion percent as dd in the background as well as the estimated remaining time.
-
+ 
 
 
 ## Features ##
@@ -105,10 +105,9 @@ For remote imaging, ddAuto opens dual TCP connections. One via Netcat/Cryptcat t
 
 <h2>Screenshots</h2>
 
-
 <h3>Welcome Window</h3>
-1. Utility body area.<br />
-2. Utility control area.<br />
+#1. Utility body area.<br />
+#2. Utility control area.<br />
 <img src='https://dl.dropboxusercontent.com/s/77bislzgxo2dq9l/1.jpg' />
 
 
