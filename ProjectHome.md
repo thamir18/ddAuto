@@ -112,30 +112,30 @@ For remote imaging, ddAuto opens dual TCP connections. One via Netcat/Cryptcat t
 
 
 <h3>Imaging Mode Window</h3>
-3. <b>Local</b>: allows the user to image attached devices locally.<br />
-4. <b>Remote</b>: allows the user to image attached devices remotely over TCP connection.<br />
+3- <b>Local</b>: allows the user to image attached devices locally.<br />
+4- <b>Remote</b>: allows the user to image attached devices remotely over TCP connection.<br />
 <img src='https://dl.dropbox.com/s/yo07r3cv2qprtzi/2.jpg' />
 
 
 <h3>I/O Path Window</h3>
-5. <b>Input Device/File</b>: it can be a valid device or file path to pass for dd as input (if=).<br />
-6. <b>Output File</b>: it can be a valid file path to pass for dd as output (of=).<br />
-7. The button with the black arrow on the right opens a list with detected devices. In the the example below, 'Device1' refers to the hard drive while 'Device2' refers to a USB flash drive. <br />
+5- <b>Input Device/File</b>: it can be a valid device or file path to pass for dd as input (if=).<br />
+6- <b>Output File</b>: it can be a valid file path to pass for dd as output (of=).<br />
+7- The button with the black arrow on the right opens a list with detected devices. In the the example below, 'Device1' refers to the hard drive while 'Device2' refers to a USB flash drive. <br />
 <img src='https://dl.dropbox.com/s/82lcohbzptbpq5p/3.jpg' />
 <img src='https://dl.dropbox.com/s/38onesvyecrdf07/4.jpg' />
 
 <h3>Connection Mode Window</h3>
 This window appears only if 'Remote Mode' option is selected.<br />
-8. <b>Sender Mode</b>: allows the user to send the input of dd to a remote receiver over TCP connection.<br />
-9. <b>Receiver Mode</b>: allows the user to accept the output of dd from a remote sender over TCP connection.<br />
+8- <b>Sender Mode</b>: allows the user to send the input of dd to a remote receiver over TCP connection.<br />
+9- <b>Receiver Mode</b>: allows the user to accept the output of dd from a remote sender over TCP connection.<br />
 <img src='https://dl.dropbox.com/s/3bjk11zyyp2a808/5.jpg' />
 
 
 <h3>Tunneling Mode Window</h3>
 This window appears only if 'Remote Mode' option is selected.<br />
-10. <b>Netcat</b>: allows the user to send the dd stream over unencrypted TCP connection.<br />
-11. <b>Cryptcat</b>: allows the user to send the dd stream over encrypted TCP connection.<br />
-12. <b>Network Settings</b>: a parameters must be passed to Netcat/Cryptcat:<br>
+10- <b>Netcat</b>: allows the user to send the dd stream over unencrypted TCP connection.<br />
+11- <b>Cryptcat</b>: allows the user to send the dd stream over encrypted TCP connection.<br />
+12- <b>Network Settings</b>: a parameters must be passed to Netcat/Cryptcat:<br>
 <ul><li><b>Remote IP</b>: valid remote host IP address in the format: #.#.#.#<br>
 </li><li><b>Port</b>: valid remote host listing port.<br>
 </li><li><b>key</b>: optional encryption key for Cryptcat only.<br>
@@ -148,8 +148,8 @@ This windows allows the user to pass options in graphic mode to dd utility. It s
 
 
 <h3>Checksum & Report Options Window</h3>
-13. A list of optional checksum algorithms.<br />
-14. User's HTML report options.<br />
+13- A list of optional checksum algorithms.<br />
+14- User's HTML report options.<br />
 <img src='https://dl.dropbox.com/s/wbw4xicg9mufr4u/8.jpg' />
 
 <h3>Confirmation Window</h3>
@@ -159,12 +159,12 @@ This windows allows the user to confirm his selected options before imaging star
 
 <h3>Status Window</h3>
 This windows updates the user with the progress of dd as well as the estimated time.<br>
-15. Time estimation.<br />
-16. Progress bar.<br />
-17. Messages area to keep the user updated about the process.<br />
-18. Exit button.<br />
-19. Open an HTML summary report in a browser.<br />
-20. Takes the user to the first step.<br />
+15- Time estimation.<br />
+16- Progress bar.<br />
+17- Messages area to keep the user updated about the process.<br />
+18- Exit button.<br />
+19- Open an HTML summary report in a browser.<br />
+20- Takes the user to the first step.<br />
 <img src='https://dl.dropbox.com/s/omj3ewzg8f9kqzq/10.jpg' />
 
 <h3>HTML Summary Report</h3>
