@@ -8,7 +8,7 @@ SHA1, SHA2 or any other degist algorithm for hash verification. Most importantly
 completion percent as dd in the background as well as the estimated remaining time. 
 
 [Features]
-•GUI for dd 
+•GUI for dd
 •Easy to change options and to switch between windows. 
 •Automatically devices detection (HD, USB Flash Drive, SD Memory). 
 •Progress bar for imaging time. 
