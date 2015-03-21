@@ -80,9 +80,8 @@ Before the tool is launched from the command line in Windows machine, the user m
 
 ## Remote Imaging ##
 For remote imaging, ddAuto opens dual TCP connections. One via Netcat/Cryptcat to tunnel dd stream, and the other is a TCP connection on port '9090' for data control initiated by the Sender to exchange control data, like how many bytes have been transferred so far and what hash calculation requested by the receiver. In case of firewall protection, the user should allow for port '9090' (hardcoded) and the Netcat/Cryptcat listing port selected by the user. The following table summarizes the remote imaging on different OSs.
-| **Receiver** | **Sender** | **Notes** |
-|:-------------|:-----------|:----------|
-| Windows 7 | Backtrack 5 | <ul><li>File Imaging</li> <li>Flash drive imaging</li> <li>Netcat/Cryptcat</li>
+<table><thead><th> <b>Receiver</b> </th><th> <b>Sender</b> </th><th> <b>Notes</b> </th></thead><tbody>
+<tr><td> Windows 7 </td><td> Backtrack 5 </td><ul><li>File Imaging</li> <li>Flash drive imaging</li> <li>Netcat/Cryptcat</li>
 <tr><td> Backtrack 5 </td><td> Windows 7 </td><td> <ul><li>File Imaging</li> <li>Flash drive imaging</li> <li>Netcat/Cryptcat</li></td></tr>
 <tr><td> Backtrack 5 </td><td> Backtrack 5 </td><td> <ul><li>File Imaging</li> <li>Flash drive imaging</li> <li>Netcat/Cryptcat</li></td></tr>
 <tr><td> Windows 7 </td><td> Mac OS </td><td> <ul><li>File Imaging</li> <li>Flash drive imaging</li> <li>Netcat</li></td></tr></tbody></table>
