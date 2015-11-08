@@ -10,11 +10,11 @@ Image integrity functionality is also provided by the tool. The user may choose 
   * Easy to change options and to switch between windows.
   * Automatically devices detection (HD, USB Flash Drive, SD Memory).
   * Progress bar for imaging time.
-  * Elapsed / Estimated time calculations.
-  * Support for a number of hashing algorithms.
-  * Netcat and Cryptcat support.
-  * Multi-OS support (Windows, Linux, OSX).
-  * Exported HTML summary report.
+  * Elapsed / Estimated time calculations.
+  * Support for a number of hashing algorithms.
+  * Netcat and Cryptcat support.
+  * Multi-OS support (Windows, Linux, OSX).
+  * Exported HTML summary report.
 
 
 
